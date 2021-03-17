@@ -130,6 +130,17 @@ header {
         }
     }
 }
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border: 2px solid #fff;
+    span{
+        display: block;
+        width: 25px;
+        height: 2px;
+        background: #fff;
+        margin: 5px 0;
+    }
+}
 
 .feature {
     h2 {
@@ -503,6 +514,8 @@ header {
     .toggle-option {
         text-align: center;
         margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
     }
     .toggle-option li {
         list-style: none;
@@ -917,9 +930,13 @@ header {
 
 footer {
     padding: 50px 0 0 0;
-    .f-logo {
-        margin-bottom: 40px;
+    .footer-logo-item {
+        padding: 0 15px;
+        .f-logo {
+            margin-bottom: 40px;
+        }
     }
+    
     .footer-widget {
         h5 {
             font-size: 20px;
